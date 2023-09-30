@@ -9,3 +9,31 @@
 .w-full {
   width: 100%;
 }
+
+#header {
+  border: 1px solid black;
+  text-align: center;
+}
+#about {
+  border: 1px solid black;
+  padding: 1em;
+}
+#contact {
+  border: 1px solid black;
+  padding: 1em;
+}
+.two-columns {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.two-columns-flex {
+  display: grid;
+}
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.dashboardlogo {
+width: 50px;
+}
